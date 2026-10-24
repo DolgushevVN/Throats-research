@@ -1,0 +1,15 @@
+# Data folders: only the README files are tracked
+raw_data/*
+saved_dicts_and_lists/*
+datasets/*
+!raw_data/README.md
+!saved_dicts_and_lists/README.md
+!datasets/README.md
+
+# Outputs of ML_loso.ipynb
+notebooks/*.pkl
+notebooks/*.pdf
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
